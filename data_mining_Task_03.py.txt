@@ -1,0 +1,6 @@
+import string
+
+random_str = "The quick brown fox jumps over the lazy dog's back, but the dog doesn't care; it just yawns and goes back to sleep"
+correct_string = random_str.translate(str.maketrans('', '', string.punctuation))
+
+print(correct_string)
